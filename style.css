@@ -2,6 +2,7 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+    padding: 5px;
   }
 
 .branded {
@@ -27,10 +28,3 @@ img {
 .custom-toggler.navbar-toggler {
   border-color: black;
 } 
-
-
-
-.homeImage {
-  width: "250";
-  align: "left";
-}
