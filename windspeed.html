@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Design Challenge</title>
+    <title>Latititude Vs. Wind Speed</title>
 
     <!-- Bootstrap References -->
     <link rel="stylesheet" href="bootstrap.min.css">
@@ -23,9 +23,11 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
+                    
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Plots
                     </a>
+                    
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="maxtemp.html">Max Temperature</a></li>
                         <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
@@ -34,6 +36,7 @@
                         <!-- <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                     </ul>
+                    
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="comparison.html">Comparison</a>
@@ -49,22 +52,11 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-8">
-                <p class="h4">Summary: Latitude vs. X</p>
+                <p class="h4">Windspeed</p>
                 <hr>
-                <div class="homeImage">
-                    <img src="images/Fig1.png" alt="Latitude vs. Temperature" style="width:250px;margin-right:15px;float:left">
-                </div>
-                
-                <div class="pad">
-                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
-                        accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500
-                        cities.</p>
-                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors
-                    we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the souce data
-                    and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and
-                    correlations witnesseed.</p>
-                </div>
-                
+                <img src="images/Fig4.png" alt="Latitude vs. Windspeed">
+                <br>
+                <p>We noticed that the farther away the cities are from the equator, the higher the windspeeds. Cities in the northern hemisphere attain a far higher windspeed at the same distance rate as their counterparts in the southern hemisphere.</p>
             </div>
             <div class="col col-12 col-md-4 divbdy">
                 <p class="h4">Visualizations</p>
@@ -79,7 +71,7 @@
                     <div class="col-3 col-md-6">
                       <a href="cloudiness.html"><img src="Images/Fig3.png" alt="Latitude vs. Cloudiness"></a>
                     </div>
-                    <div class="col-3 col-md-6">
+                    <div class="col-3 col-md-6 border border-info">
                       <a href="windspeed.html"><img src="Images/Fig4.png" alt="Latitude vs. Wind Speed"></a>
                     </div>
                   </div>
